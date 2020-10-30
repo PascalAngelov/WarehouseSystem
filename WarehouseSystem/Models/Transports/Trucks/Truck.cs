@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text.RegularExpressions;
+
 using WarehouseSystem.Common.Constants;
 
 namespace WarehouseSystem.Models.Transport.Trucks

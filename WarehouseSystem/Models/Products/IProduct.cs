@@ -4,8 +4,6 @@
     {
         int Id { get; }
         
-        string Type { get; }
-        
         string Manufacturer { get; }
 
         decimal Price { get; }

@@ -2,6 +2,6 @@
 {
     public interface IWagon : ITrain
     {
-        int NumberOfWagon { get; }
+        string NumberOfWagon { get; }
     }
 }

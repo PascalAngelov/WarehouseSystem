@@ -5,6 +5,8 @@ namespace WarehouseSystem.Models.Transport.Trains
 {
    public interface ITrain : ITransport
     {
-        IReadOnlyCollection<IWagon> wagons { get; }
+        IReadOnlyCollection<IWagon> Wagons { get; }
+        void AddWagon(IWagon wagon);
+        void RemoveWagon(string NumberOfWagon);
     }
 }

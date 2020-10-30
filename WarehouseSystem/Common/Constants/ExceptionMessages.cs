@@ -13,5 +13,13 @@
         public const string InvalidLastName = "Please insert last name!";
         public const string InvalidPersonalIdentificationNumber = "Please insert correct PIN!";
         public const string InvalidIdentityCard = "Please insert correct identity card!";
+        public const string InvalidWagonNumber = "Please insert correct wagon number!";
+        public const string InvalidTerminalName = "Please insert name of the terminal!";
+        public const string InvalidName = "Please insert correct name!";
+        public const string InvalidNumber = "Please insert correct number!";
+        public const string InvalidManufacturer = "Please insert correct manufacturer!";
+        public const string InvalidPrice = "Please insert correct price!";
+        public const string InvalidTransport = "Please insert correct transport!";
+        public const string InvalidStack = "Please insert correct stack!";
     }
 }
