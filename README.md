@@ -1,2 +1,2 @@
 # WarehouseSystem
-A simple program for reporting goods in warehouses.
+A simple console program for reporting goods in warehouses.
