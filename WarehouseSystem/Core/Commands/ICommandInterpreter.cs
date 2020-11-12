@@ -2,6 +2,6 @@
 {
     public interface ICommandInterpreter
     {
-        string ExecuteCommand(string[] data, IController controller);
+        void ExecuteCommand();
     }
 }

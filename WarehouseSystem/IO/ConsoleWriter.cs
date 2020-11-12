@@ -6,12 +6,12 @@ namespace WarehouseSystem.IO
     {
         public void CustomWrite(string text)
         {
-            Console.WriteLine(text);
+            Console.Write(text);
         }
 
         public void CustomWriteLine(string text)
         {
-            Console.Write(text);
+            Console.WriteLine(text);
         }
     }
 }

@@ -41,7 +41,7 @@ namespace WarehouseSystem.Models.Terminals
 
         public void RemoveArea(string name)
         {
-            IArea area = this.areas.FirstOrDefault(a => a.Name == name);
+            IArea area = this.areas.FirstOrDefault(a => a.AreaName == name);
             
             if (area == null)
             {

@@ -21,5 +21,6 @@
         public const string InvalidPrice = "Please insert correct price!";
         public const string InvalidTransport = "Please insert correct transport!";
         public const string InvalidStack = "Please insert correct stack!";
+        public const string InvalidCommand = "Please insert correct command!";
     }
 }

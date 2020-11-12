@@ -40,9 +40,9 @@ namespace WarehouseSystem.Models.Terminals.Areas
             this.stacks.Add(stack);
         }
 
-        public void RemoveStack(string name)
+        public void RemoveStack(int number)
         {
-            IStack stack = this.stacks.FirstOrDefault(s => s.Name == name);
+            IStack stack = this.stacks.FirstOrDefault(s => s.Number == number);
 
             if (stack == null)
             {

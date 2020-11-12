@@ -10,10 +10,10 @@ namespace WarehouseSystem
         {
             IReader reader = new ConsoleReader();
             IWriter writer = new ConsoleWriter();
-            ICommandInterpreter commandInterpreter = new CommandInterpreter();
-            IController controller = null;
+            ICommandInterpreter commandInterpreter = new CommandInterpreter(reader, writer);
+ 
 
-            IEngine engine = new Engine(reader, writer, commandInterpreter, controller);
+            IEngine engine = new Engine(writer, commandInterpreter);
             engine.Run();
         }
     }

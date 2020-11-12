@@ -8,6 +8,6 @@ namespace WarehouseSystem.Models.Terminals.Areas
         string AreaName { get; }
         IReadOnlyCollection<IStack> Stacks { get; }
         void AddStack(IStack stack);
-        void RemoveStack(string name);
+        void RemoveStack(int number);
     }
 }
